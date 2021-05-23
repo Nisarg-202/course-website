@@ -1,0 +1,18 @@
+<%- include("partials/header"); -%>
+
+
+  <%  courses.forEach(function(course){ %>
+
+    <h1><%=course.title%></h1>
+    <p>By <%=course.name%></p>
+
+    <p>
+    <%=course.content.substring(0, 100) + " ..."%>
+    <a href="/posts/<%=course._id%>">Read More</a>
+    </p>
+
+
+    <% }) %>
+
+
+<%- include("partials/footer"); -%>

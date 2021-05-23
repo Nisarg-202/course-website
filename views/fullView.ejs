@@ -1,0 +1,19 @@
+<%- include("partials/header"); -%>
+
+  <%  courses.forEach(function(course){ %>
+  <% console.log(course.title); %>
+  <%  if(course._id == postid) { %>
+
+      <h1><%=course.title%></h1>
+      <p><%=course.name%></p>
+
+      <p>
+      <%=course.content%>
+      </p>
+
+    <% } %>
+
+    <% }); %>
+
+
+<%- include("partials/footer"); -%>

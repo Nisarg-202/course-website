@@ -1,0 +1,23 @@
+body {
+  background-color: #ffcbcb;
+  text-align: center;
+}
+
+h1 {
+  color: #bb596b;
+  margin-top: 150px;
+  font-size: 50px;
+}
+
+button {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+/* a:hover {
+  text-decoration: none;
+}
+
+a {
+  color: #bb596b;
+} */
